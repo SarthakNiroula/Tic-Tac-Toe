@@ -40,12 +40,12 @@ const winner_cond=[
             if(pos_1===pos_2 && pos_2 ===pos_3){
             congo.play(); //playing clicked sound
             if(pos_1=="0"){
-            congo_text.innerText=`Congratulations ${a}. You have won the match . Regards, Sarthak Niroula `;
+            congo_text.innerText=`Congratulations ${a}(0). You have won the match . Regards, Sarthak Niroula `;
             congo_text.style.color="red";
             }
 
             else{
-              congo_text.innerText=`Congratulations ${b}. You have won the match . Regards, Sarthak Niroula `;
+              congo_text.innerText=`Congratulations ${b}(X). You have won the match . Regards, Sarthak Niroula `;
               congo_text.style.color="green";
 
             }
