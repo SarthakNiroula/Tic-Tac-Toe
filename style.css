@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inria Sans", system-ui;
+   
+}
+body{
+    background-color: #e9c46a;
+}
+
+p{
+    text-align: center;
+    /* font-family: cursive; */
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+}
+p:hover{
+    /* font-size: 42px; */
+    color: rgb(31, 20, 94);
+    transition:0.5s;
+
+}
+
+p::after{
+ /* text-decoration: underline; */
+ left:0;
+ transition: width .2s ;
+
+
+}
+
+.container{
+    margin-top:3vh ;
+    margin-left:36%;
+    /* margin-right: 40%; */
+    padding: 1%;
+    padding-bottom: 3%;
+    
+    display: flex;
+    flex-direction: row;
+     flex-wrap:wrap;
+    background-color: #457b9d;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    gap: 2%;
+    border: solid transparent;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+button{
+    width: 30%;
+    height: 20vh;
+    margin-top: 5%;
+    border: solid transparent;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    font-size: 50px;
+    color: green;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+ .reset{
+    height: auto;
+    /* width: auto; */
+    text-align: center;
+    margin-top: 20px;
+    /* width: 40%; */
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 1%;
+    border: solid transparent;
+    color: #ffffff;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 10%;
+    padding: 0.7%;
+    cursor: pointer;
+}
+
+.reset:hover{
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    transition:1s;
+    font-size: 24px;
+}
